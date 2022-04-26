@@ -37,3 +37,30 @@ console.log("Lista ordenada --> ",lista);
 
 let verificaArray = Array.isArray(lista);
 console.log("Verifica se varoável é array --> ",verificaArray);
+
+
+//Teste 4
+
+const numeros = [1,2,5,20,55,88,99];
+const multiplicaNumeros = numeros.map(function(numeros){
+    return numeros * 7;
+});
+console.log("Multiplicando idades por 7: ",multiplicaNumeros);
+
+let verificarPar = multiplicaNumeros.filter(function(par){
+    return par % 2===0;
+})
+console.log("Verificando quais idades da última lista são pares", verificarPar);
+
+const passagens = [42,50,42,35]
+
+const somaTotalPassagens = passagens.reduce(function(passagens,accumulator){
+    return accumulator + passagens;
+},0);
+
+console.log("Soma do valor total gasto com passagens em Março ->> ",somaTotalPassagens.toLocaleString('pt-br',{style:'currency',currency:'BRL'}));
+console.log("Média de custo diário: ",(somaTotalPassagens/20).toLocaleString('pt-br',{style:'currency',currency:'BRL'}));
+
+
+
+
