@@ -36,7 +36,7 @@ let ordenarNames = lista.sort();
 console.log("Lista ordenada --> ",lista);
 
 let verificaArray = Array.isArray(lista);
-console.log("Verifica se varoável é array --> ",verificaArray);
+console.log("Verifica se variável é array --> ",verificaArray);
 
 
 //Teste 4
@@ -50,7 +50,7 @@ console.log("Multiplicando idades por 7: ",multiplicaNumeros);
 let verificarPar = multiplicaNumeros.filter(function(par){
     return par % 2===0;
 })
-console.log("Verificando quais idades da última lista são pares", verificarPar);
+console.log("Verificando quais idades da última lista são pares ->", verificarPar);
 
 const passagens = [42,50,42,35]
 
