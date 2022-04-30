@@ -10,3 +10,14 @@ function media (num1,num2){
 
 let results = media(15,20);
 console.log("O resultado é ",results);
+
+//função anônima
+let funcaoAnonima = function(n1,n2){
+    return (n1+n2)*10;
+}
+
+let results2 = funcaoAnonima(10,20);
+
+console.log("O resultado da função anônima é ", results2);
+
+
