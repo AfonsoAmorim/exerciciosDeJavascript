@@ -20,4 +20,12 @@ let results2 = funcaoAnonima(10,20);
 
 console.log("O resultado da função anônima é ", results2);
 
+//teste 9 
 
+for (let i=0;i<15;i++){
+    if(i%5){
+    console.log("Laço FOR em ação!",i);
+}else{
+    console.log("Não dividiu!");
+}
+}
