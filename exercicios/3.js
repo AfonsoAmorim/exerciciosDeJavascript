@@ -29,3 +29,11 @@ for (let i=0;i<15;i++){
     console.log("Não dividiu!");
 }
 }
+
+// teste 10 
+
+let num = 10;
+while(num < 50){
+    console.log("O número é: "+ num);
+    num++;
+}
