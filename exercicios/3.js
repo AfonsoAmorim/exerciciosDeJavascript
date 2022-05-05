@@ -37,3 +37,11 @@ while(num < 50){
     console.log("O número é: "+ num);
     num++;
 }
+
+
+// teste 11 
+// conversão de temperatura 
+const temp1 = 50;
+
+console.log('TEMPERATURA EM CELSIUS');
+console.log(`A temperatura em graus celsius é ${((temp1 -32)/1.8)}`);
