@@ -45,3 +45,32 @@ const temp1 = 50;
 
 console.log('TEMPERATURA EM CELSIUS');
 console.log(`A temperatura em graus celsius é ${((temp1 -32)/1.8)}`);
+
+//classes  
+ 
+class Computador{
+    constructor(monitor,teclado,mouse){
+        this.monitor = monitor;
+        this.teclado = teclado;
+        this.mouse = mouse;
+    }
+    set set1(monitor){
+        this.monitor = monitor;
+    }
+    set set2(teclado){
+        this.teclado = teclado;
+    }
+    set set3(mouse){
+        this.mouse = mouse;
+    }
+}
+
+let computador1 = new Computador();
+computador1.set1 = "monitor 1";
+computador1.set2 = "teclado 1";
+computador1.set3 = "mouse 1";
+
+console.log(computador1.monitor);
+console.log(computador1.teclado);
+console.log(computador1.mouse);
+console.log("O objeto completo é ",computador1);
