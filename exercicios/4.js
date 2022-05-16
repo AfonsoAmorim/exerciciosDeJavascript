@@ -18,3 +18,10 @@ function conta(var1,var2){
 
 let conta1 = conta(1,2);
 console.log(conta1);
+
+// último item 
+const itens = [1,2,35,50,60,100,0,2]
+
+let ultimoItem = itens[itens.length -1];
+
+console.log(ultimoItem);
